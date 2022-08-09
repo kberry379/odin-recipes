@@ -1,57 +1,17 @@
-/* applies to all body elements */
+/* below this line applies to all .html files for odin recipes */
 body {
     text-align: center;
-    background-color: blanchedalmond;
 }
+/* above this line applies to all .html files for odin recipes */
 
-body.beerbody {
-    background-color: wheat;
-}
-
-/* applies to all h1 elements */
-h1 {
-    font-family: 'Lucida Handwriting', 'Brush Script M7', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,papyrus;
-    font-style: oblique;
-    font-size: 48px;
+/* below this line applies to index.html */
+body.index {
+    background-color: bisque;
 }
 
 .recipes {
     list-style: none;
     font-size: larger;
 }
+/* above this line applies to index.html */
 
-.beer, .containers, .drink {
-    list-style: none;
-    text-align: center;
-}
-
-.containers {
-    text-align: center;
-}
-
-a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-}
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:focus {
-    border-bottom: 1px dotted;
-}
-
-a:hover {
-    background: darkkhaki;
-}
-
-a:active {
-    background: #265301;
-    color: darkkhaki;
-}
