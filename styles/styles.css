@@ -1,17 +1,20 @@
-/* below this line applies to all .html files for odin recipes */
 body {
     text-align: center;
-}
-/* above this line applies to all .html files for odin recipes */
-
-/* below this line applies to index.html */
-body.index {
     background-color: bisque;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
 }
 
 .recipes {
     list-style: none;
-    font-size: larger;
 }
-/* above this line applies to index.html */
-
+img {
+    width: 350px;
+    height: auto;
+}
